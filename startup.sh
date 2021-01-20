@@ -58,5 +58,5 @@ fi
 set -e
 
 echo "Starting Raspotify..."
-librespot $VERB --name "$SPOTIFY_NAME" $BACKEND $DEVICE --bitrate 320 --disable-audio-cache --enable-volume-normalisation
+librespot $VERB --name "$SPOTIFY_NAME" $BACKEND $DEVICE --bitrate 160 --disable-audio-cache --enable-volume-normalisation
 
