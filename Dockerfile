@@ -13,7 +13,7 @@ RUN apt-get update && \
     apt-get -y install raspotify 
 
 ENV SPOTIFY_NAME RaspotifySpeaker
-ENV BACKEND_NAME 'alsa'
+ENV BACKEND_NAME 'pipe'
 ENV DEVICE_NAME 'equal'
 ENV ALSA_SLAVE_PCM 'plughw:0,0'
 ENV ALSA_SOUND_LEVEL '100%'
